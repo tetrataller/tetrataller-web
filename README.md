@@ -1,5 +1,11 @@
 # Tetra Taller
 
+## Versión 59
+
+- Imágenes de ambos carruseles convertidas a WebP optimizado: de aproximadamente 11 MB a menos de 600 KB.
+- La computadora se limpió y recortó como recurso transparente, eliminando triángulos y cuadrícula.
+- Las primeras imágenes se precargan y las demás se decodifican de forma asíncrona.
+
 ## Versión 58
 
 - Se reservó un margen fijo entre las imágenes y los controles de ambos carruseles.

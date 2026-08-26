@@ -503,10 +503,10 @@
 /* Las dos imágenes llegaron con cuadrícula de previsualización incorporada;
    el recorte conserva únicamente la silueta de cada dispositivo. */
 .carousel-laptop {
-  width: 108% !important;
+  width: 96% !important;
   max-width: none !important;
   height: calc(100% - 34px);
-  clip-path: polygon(22% 12%, 78% 12%, 78% 75%, 81% 80%, 84% 85%, 84% 88.5%, 16% 88.5%, 16% 85%, 19% 80%, 22% 75%);
+  clip-path: none;
 }
 
 .carousel-phone {

@@ -1,0 +1,16 @@
+ACTUALIZACION DE CARRUSELES — TETRA TALLER v59
+
+1. En GitHub, abre la carpeta assets.
+2. Sube los ocho archivos .webp incluidos en la carpeta assets de este paquete.
+3. Regresa a la carpeta principal del repositorio.
+4. Sustituye index.html y styles.css por los archivos de este paquete.
+5. README.md y VERSION.txt son recomendables para registrar la versión, pero no afectan la página.
+6. Confirma el cambio con el mensaje: Optimizar carruseles y corregir recorte - v59
+7. Espera a que Deployments > github-pages muestre la marca verde.
+8. Abre tetrataller.com en una pestaña de incógnito o recarga con Ctrl + Shift + R.
+
+RESULTADO
+
+- Imágenes de carrusel reducidas de aproximadamente 11 MB a menos de 600 KB.
+- Computadora con transparencia real, sin triángulos ni cuadrícula.
+- Precarga de las primeras imágenes y decodificación asíncrona de las demás.
