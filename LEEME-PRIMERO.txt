@@ -1,0 +1,12 @@
+TETRA TALLER — VERSIÓN 51
+
+Para verlo correctamente en Windows:
+1. Haz clic derecho sobre TetraTaller-v51-Windows.zip.
+2. Selecciona “Extraer todo...”.
+3. Abre la carpeta Tetra-Taller-v51.
+4. Abre index.html.
+
+No abras index.html directamente desde dentro del ZIP.
+
+Versión: v.51
+Fecha: 25 de agosto de 2026

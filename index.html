@@ -1,0 +1,315 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Tetra Taller crea páginas web, tarjetas digitales, sistemas modulares, complementos para negocios y productos impresos en 3D."
+    />
+    <meta name="theme-color" content="#11100f" />
+    <title>Tetra Taller | Ideas en lo digital y en lo físico</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="ecosistema.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Tetra Taller, página de inicio">
+        <img src="assets/tetra-isotipo.png" alt="" />
+        <span>Tetra Taller</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav">
+        <span></span><span></span><span class="sr-only">Abrir menú</span>
+      </button>
+      <nav id="nav" class="main-nav" aria-label="Navegación principal">
+        <a class="nav-3d" href="#cotizador">3D</a>
+        <a class="nav-digital" href="#servicios">Digital</a>
+        <a href="tienda.html">Tienda</a>
+        <a href="#cotizador">Cotizador</a>
+        <a class="nav-contact" href="#contacto">Contacto</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="inicio" class="split-hero" aria-labelledby="split-hero-title">
+        <h1 id="split-hero-title" class="sr-only">Tetra Taller: soluciones 3D y digitales</h1>
+        <div class="split-hero-desktop">
+          <article class="desktop-portal desktop-portal-3d">
+            <div class="desktop-portal-copy">
+              <p>3D</p>
+              <h2>Una tecnología, muchas posibilidades.</h2>
+              <a class="desktop-portal-button" href="#cotizador">Explorar 3D</a>
+            </div>
+            <div class="three-d-hero-carousel" data-hero-3d-carousel aria-roledescription="carrusel" aria-label="Posibilidades de la impresión 3D">
+              <div class="three-d-hero-track">
+                <figure class="three-d-hero-slide is-active" aria-hidden="false">
+                  <img class="three-d-knob" src="assets/carrusel-3d-perilla.png" alt="Perilla de estufa de repuesto impresa en 3D" />
+                  <figcaption>Repara lo que parecía difícil de reemplazar.</figcaption>
+                </figure>
+                <figure class="three-d-hero-slide" aria-hidden="true">
+                  <img src="assets/carrusel-3d-molde-velas.png" alt="Molde impreso en 3D para fabricar velas con forma de fantasma" />
+                  <figcaption>Convierte una idea en un producto para vender.</figcaption>
+                </figure>
+                <figure class="three-d-hero-slide" aria-hidden="true">
+                  <img src="assets/carrusel-3d-ibc.png" alt="Tapadera y adaptador impresos en 3D para tanque IBC" />
+                  <figcaption>Crea la pieza exacta para trabajar mejor.</figcaption>
+                </figure>
+                <figure class="three-d-hero-slide" aria-hidden="true">
+                  <img class="three-d-robot" src="assets/robot-blanco-portada-v47.png" alt="Robot retro blanco fabricado mediante impresión 3D" />
+                  <figcaption>Da vida a juguetes, figuras y nuevas ideas.</figcaption>
+                </figure>
+              </div>
+              <button class="three-d-hero-arrow three-d-hero-prev" type="button" data-hero-3d-prev aria-label="Ver posibilidad anterior">‹</button>
+              <button class="three-d-hero-arrow three-d-hero-next" type="button" data-hero-3d-next aria-label="Ver posibilidad siguiente">›</button>
+              <div class="three-d-hero-dots" aria-label="Seleccionar posibilidad de impresión 3D"></div>
+            </div>
+          </article>
+
+          <div class="desktop-brand-lockup" aria-label="Tetra Taller. Las ideas toman forma.">
+            <img src="assets/tetra-isotipo.png" alt="" />
+            <strong>Tetra Taller</strong>
+            <span class="brand-rule" aria-hidden="true"><i></i><i></i></span>
+            <span>Las ideas toman forma.</span>
+          </div>
+
+          <article class="desktop-portal desktop-portal-digital">
+            <div class="desktop-portal-copy">
+              <p>Digital</p>
+              <h2>Soluciones para tu negocio</h2>
+              <a class="desktop-portal-button" href="#servicios">Explorar Digital</a>
+            </div>
+            <div class="digital-hero-carousel" data-hero-digital-carousel aria-roledescription="carrusel" aria-label="Soluciones digitales de Tetra Taller">
+              <div class="digital-hero-track">
+                <figure id="digital-paginas-web" class="digital-hero-slide is-active" aria-hidden="false">
+                  <figcaption>Páginas Web</figcaption>
+                  <img class="carousel-device carousel-laptop" src="assets/carrusel-paginas-web.png" alt="Laptop mostrando la página web de Tacos al Vapor Memo's" />
+                </figure>
+                <figure id="digital-fidelidad" class="digital-hero-slide" aria-hidden="true">
+                  <figcaption>Tarjetas de Fidelidad</figcaption>
+                  <img src="assets/carrusel-fidelidad.png" alt="Tarjeta digital de fidelidad Renova Kicks" />
+                </figure>
+                <figure id="digital-resenas-google" class="digital-hero-slide" aria-hidden="true">
+                  <figcaption>Reseñas Google</figcaption>
+                  <img src="assets/carrusel-resenas-google.png" alt="Caballete para solicitar reseñas en Google mediante QR y NFC" />
+                </figure>
+                <figure id="digital-tarjeta" class="digital-hero-slide" aria-hidden="true">
+                  <figcaption>Tarjeta Digital</figcaption>
+                  <img class="carousel-device carousel-phone" src="assets/carrusel-tarjeta-digital.png" alt="Celular mostrando la tarjeta digital de Rosa Elena" />
+                </figure>
+                <figure id="digital-menu" class="digital-hero-slide" aria-hidden="true">
+                  <figcaption>Menú Digital</figcaption>
+                  <img src="assets/carrusel-menu-digital.webp" alt="Menú digital para restaurante mediante código QR" />
+                </figure>
+              </div>
+              <button class="digital-hero-arrow digital-hero-prev" type="button" data-hero-digital-prev aria-label="Ver solución anterior">‹</button>
+              <button class="digital-hero-arrow digital-hero-next" type="button" data-hero-digital-next aria-label="Ver solución siguiente">›</button>
+              <div class="digital-hero-dots" aria-label="Seleccionar solución digital"></div>
+            </div>
+          </article>
+        </div>
+        <div class="split-hero-mobile">
+          <div class="mobile-brand-lockup">
+            <img src="assets/tetra-isotipo.png" alt="" />
+            <strong>Tetra Taller</strong>
+            <span>Las ideas toman forma.</span>
+          </div>
+          <article class="mobile-portal mobile-portal-3d">
+            <div class="mobile-portal-copy">
+              <p>3D</p><h2>Una tecnología, muchas posibilidades.</h2>
+              <a class="button" href="#cotizador">Explorar 3D</a>
+            </div>
+            <div class="three-d-hero-carousel three-d-hero-carousel-mobile" data-hero-3d-carousel aria-roledescription="carrusel" aria-label="Posibilidades de la impresión 3D">
+              <div class="three-d-hero-track">
+                <figure class="three-d-hero-slide is-active" aria-hidden="false">
+                  <img class="three-d-knob" src="assets/carrusel-3d-perilla.png" alt="Perilla de estufa de repuesto impresa en 3D" />
+                  <figcaption>Repara lo que parecía difícil de reemplazar.</figcaption>
+                </figure>
+                <figure class="three-d-hero-slide" aria-hidden="true">
+                  <img src="assets/carrusel-3d-molde-velas.png" alt="Molde impreso en 3D para fabricar velas con forma de fantasma" />
+                  <figcaption>Convierte una idea en un producto para vender.</figcaption>
+                </figure>
+                <figure class="three-d-hero-slide" aria-hidden="true">
+                  <img src="assets/carrusel-3d-ibc.png" alt="Tapadera y adaptador impresos en 3D para tanque IBC" />
+                  <figcaption>Crea la pieza exacta para trabajar mejor.</figcaption>
+                </figure>
+                <figure class="three-d-hero-slide" aria-hidden="true">
+                  <img class="three-d-robot" src="assets/robot-blanco-portada-v47.png" alt="Robot retro blanco fabricado mediante impresión 3D" />
+                  <figcaption>Da vida a juguetes, figuras y nuevas ideas.</figcaption>
+                </figure>
+              </div>
+              <button class="three-d-hero-arrow three-d-hero-prev" type="button" data-hero-3d-prev aria-label="Ver posibilidad anterior">‹</button>
+              <button class="three-d-hero-arrow three-d-hero-next" type="button" data-hero-3d-next aria-label="Ver posibilidad siguiente">›</button>
+              <div class="three-d-hero-dots" aria-label="Seleccionar posibilidad de impresión 3D"></div>
+            </div>
+          </article>
+          <article class="mobile-portal mobile-portal-digital">
+            <div class="mobile-portal-copy">
+              <p>Digital</p><h2>Soluciones para tu negocio</h2>
+              <a class="button" href="#servicios">Explorar Digital</a>
+            </div>
+            <div class="mobile-digital-collage" aria-label="Página web, tarjeta digital y fidelización">
+              <img class="mobile-web" src="assets/pagina-web-tacos-memos.png" alt="Página web de Tacos al Vapor Memo's" />
+              <img class="mobile-card" src="assets/tarjeta-digital-chef.png" alt="Tarjeta digital para chef personal" />
+              <img class="mobile-loyalty" src="assets/fidelizacion-renova-kicks.png" alt="Tarjeta de fidelización digital Renova Kicks" />
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="servicios" class="service-paths" aria-labelledby="services-title">
+        <div class="section-heading">
+          <p class="eyebrow">Ve directo a lo que necesitas</p>
+          <h2 id="services-title">¿Qué podemos crear contigo?</h2>
+        </div>
+        <div class="service-grid">
+          <a class="service-card" href="#contacto" aria-label="Páginas web">
+            <img src="assets/servicio-paginas-web.png" alt="Páginas web: sitio de Tacos al Vapor Memo's y tienda Agrícola y algo más" />
+            <span class="service-ribbon"><b>01</b><strong>Páginas Web</strong></span>
+          </a>
+          <a class="service-card" href="complementos.html" aria-label="Complementos para tu negocio">
+            <img src="assets/servicio-complementos.png" alt="Módulo de reseñas Google con QR, NFC y llaveros personalizados" />
+            <span class="service-ribbon"><b>02</b><strong>Complementos para tu negocio</strong></span>
+          </a>
+          <a class="service-card" href="#cotizador" aria-label="Diseño e impresión 3D">
+            <img src="assets/servicio-impresion-3d.png" alt="Robot amarillo fabricándose mediante impresión 3D" />
+            <span class="service-ribbon"><b>03</b><strong>Diseño e impresión 3D</strong></span>
+          </a>
+          <a class="service-card" href="sistemas.html" aria-label="Sistemas modulares">
+            <img src="assets/servicio-sistemas-modulares.png" alt="Sistema modular de organización para espacio de trabajo" />
+            <span class="service-ribbon"><b>04</b><strong>Sistemas modulares</strong></span>
+          </a>
+          <a class="service-card" href="fidelidad.html" aria-label="Tarjetas digitales de fidelidad">
+            <img src="assets/fidelidad-digital-memos.png" alt="Tarjeta digital de cliente frecuente creada para Tacos al Vapor Memo's" />
+            <span class="service-ribbon"><b>05</b><strong>Fidelización digital</strong></span>
+          </a>
+          <a class="service-card" href="tarjeta-digital.html" aria-label="Tarjetas de presentación digitales con NFC y QR">
+            <img src="assets/tarjeta-chef-personal.png" alt="Tarjeta digital para Valentina Ríos, chef personal" />
+            <span class="service-ribbon"><b>06</b><strong>Tarjeta Digital Tetra</strong></span>
+          </a>
+        </div>
+      </section>
+
+
+      <section id="cotizador" class="quote-section" aria-labelledby="quote-title">
+        <div class="quote-intro">
+          <p class="eyebrow">Cotización automática</p>
+          <h2 id="quote-title">Calcula un precio estimado para tu impresión 3D.</h2>
+          <p>
+            Disponible para modelos terminados y piezas de impresión sencilla en PLA o PETG.
+            El archivo y la viabilidad se revisan antes de confirmar cualquier trabajo.
+          </p>
+          <ul class="quote-scope">
+            <li>Archivos STL o 3MF listos para imprimir.</li>
+            <li>Volumen máximo de referencia: 330 × 320 × 325 mm.</li>
+            <li>Impresión de uno a cuatro colores con AMS Lite.</li>
+            <li>Desde una sola pieza, sin pedido mínimo.</li>
+          </ul>
+        </div>
+
+        <form id="quote-form" class="quote-card" novalidate>
+          <div class="quote-field quote-file-field">
+            <label for="model-file">Archivo del modelo</label>
+            <input id="model-file" name="model-file" type="file" accept=".stl,.3mf" required />
+            <small>STL o 3MF · máximo 25 MB</small>
+          </div>
+
+          <div id="model-analysis" class="model-analysis" hidden>
+            <div class="model-preview-wrap">
+              <canvas id="model-preview" width="720" height="480" aria-label="Vista previa tridimensional del modelo"></canvas>
+              <span>Arrastra para girar la figura</span>
+            </div>
+            <div class="model-data">
+              <p>Medidas detectadas</p>
+              <strong id="detected-dimensions">—</strong>
+              <small id="model-summary">—</small>
+            </div>
+          </div>
+
+          <details id="scale-panel" class="scale-panel" hidden>
+            <summary>Cambiar tamaño</summary>
+            <div class="scale-controls">
+              <label for="quote-scale">Escala proporcional</label>
+              <div>
+                <input id="quote-scale" type="range" min="50" max="150" value="100" step="5" />
+                <output id="scale-value" for="quote-scale">100 %</output>
+              </div>
+              <p>Nuevas medidas: <strong id="scaled-dimensions">—</strong></p>
+              <small>El escalado mantiene todas las proporciones. No modifica espesores, agujeros, ensambles ni detalles individuales.</small>
+            </div>
+          </details>
+
+          <div class="quote-options-grid">
+            <label>Material
+              <select id="quote-material">
+                <option value="pla">PLA</option>
+                <option value="petg">PETG</option>
+              </select>
+            </label>
+            <label>Cantidad
+              <input id="quote-quantity" type="number" min="1" max="50" value="1" step="1" required />
+            </label>
+            <label>Número de colores
+              <select id="quote-colors">
+                <option value="1">1 color</option>
+                <option value="2">2 colores</option>
+                <option value="3">3 colores</option>
+                <option value="4">4 colores</option>
+              </select>
+            </label>
+          </div>
+
+          <div id="color-palette" class="color-palette" aria-label="Colores preferidos">
+            <p>Colores preferidos <small>(sujetos a disponibilidad)</small></p>
+            <div class="color-options">
+              <label><input type="checkbox" value="Blanco" /><span style="--swatch:#f2f0e8"></span>Blanco</label>
+              <label><input type="checkbox" value="Negro" /><span style="--swatch:#1b1b1a"></span>Negro</label>
+              <label><input type="checkbox" value="Gris" /><span style="--swatch:#85837e"></span>Gris</label>
+              <label><input type="checkbox" value="Rojo" /><span style="--swatch:#bd4538"></span>Rojo</label>
+              <label><input type="checkbox" value="Azul" /><span style="--swatch:#2452a4"></span>Azul</label>
+              <label><input type="checkbox" value="Verde" /><span style="--swatch:#467552"></span>Verde</label>
+              <label><input type="checkbox" value="Amarillo" /><span style="--swatch:#d9a52f"></span>Amarillo</label>
+              <label><input type="checkbox" value="Naranja" /><span style="--swatch:#d87537"></span>Naranja</label>
+            </div>
+          </div>
+
+          <p class="quote-restrictions">
+            Este servicio no aplica a componentes médicos, estructurales, automotrices críticos,
+            eléctricos de seguridad ni sujetos a certificación.
+            Reducir el modelo puede hacer que paredes y detalles sean demasiado pequeños para imprimirse.
+          </p>
+          <p id="quote-error" class="quote-message quote-error" role="alert" hidden></p>
+          <button class="button button-primary quote-submit" type="submit">Calcular estimado</button>
+
+          <div id="quote-result" class="quote-result" role="status" aria-live="polite" hidden>
+            <span>Precio estimado</span>
+            <strong id="quote-price">$0 MXN</strong>
+            <p>El precio final y la viabilidad se confirman después de revisar el modelo.</p>
+            <a id="quote-whatsapp" class="button quote-whatsapp" href="#" target="_blank" rel="noopener">Solicitar revisión por WhatsApp</a>
+            <small>Al abrir WhatsApp, adjunta el archivo del modelo para que podamos revisarlo.</small>
+          </div>
+        </form>
+      </section>
+
+      <section id="contacto" class="contact">
+        <p class="eyebrow">Conversemos</p>
+        <h2>¿Tienes una idea? Cuéntanos qué necesitas.</h2>
+        <p>Te ayudamos a encontrar una forma realista de comenzar. Al final de esta página puedes escribirnos por correo o WhatsApp.</p>
+      </section>
+    </main>
+
+    <footer>
+      <a class="brand footer-brand" href="index.html">
+        <img src="assets/tetra-isotipo.png" alt="" /><span>Tetra Taller</span>
+      </a>
+      <p>© <span id="year"></span> Tetra Taller</p>
+    </footer>
+    <script src="script.js"></script>
+    <script src="cotizador.js"></script>
+  </body>
+</html>
