@@ -292,6 +292,7 @@ document.querySelectorAll("[data-hero-digital-carousel]").forEach((carousel) => 
   let current = 0;
   let timer;
   let paused = false;
+  let touchStartX = 0;
 
   if (!slides.length) return;
 
@@ -326,6 +327,15 @@ document.querySelectorAll("[data-hero-digital-carousel]").forEach((carousel) => 
 
   previous?.addEventListener("click", () => { show(current - 1); start(); });
   next?.addEventListener("click", () => { show(current + 1); start(); });
+  carousel.addEventListener("touchstart", (event) => {
+    touchStartX = event.changedTouches[0]?.clientX || 0;
+  }, { passive: true });
+  carousel.addEventListener("touchend", (event) => {
+    const distance = (event.changedTouches[0]?.clientX || touchStartX) - touchStartX;
+    if (Math.abs(distance) < 45) return;
+    show(current + (distance < 0 ? 1 : -1));
+    start();
+  }, { passive: true });
   carousel.addEventListener("mouseenter", () => { paused = true; stop(); });
   carousel.addEventListener("mouseleave", () => { paused = false; start(); });
   carousel.addEventListener("focusin", () => { paused = true; stop(); });

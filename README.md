@@ -1,5 +1,11 @@
 # Tetra Taller
 
+## Versión 52
+
+- El carrusel Digital funciona ahora también en celular con los cinco servicios.
+- Conserva avance automático, flechas, indicadores y navegación al deslizar.
+- El carrusel 3D y el resto de la página permanecen sin cambios.
+
 ## Versión 51
 
 - Los carruseles 3D y Digital comparten ahora dimensiones y posición vertical.

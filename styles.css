@@ -636,14 +636,27 @@
   .three-d-hero-carousel-mobile .three-d-hero-prev { left: -22px; }
   .three-d-hero-carousel-mobile .three-d-hero-next { right: -22px; }
 
-  .mobile-portal-digital { min-height: 560px; background: #f4ede6; color: #272523; }
+  .mobile-portal-digital { min-height: 610px; background: #f4ede6; color: #272523; }
   .mobile-portal-digital .mobile-portal-copy p { color: #272523; }
   .mobile-portal-digital .button { background: #141313; }
-  .mobile-digital-collage { position: relative; height: 365px; margin-top: 14px; }
-  .mobile-digital-collage img { position: absolute; display: block; object-fit: contain; filter: drop-shadow(0 12px 16px rgba(25, 25, 25, 0.16)); }
-  .mobile-web { left: -8%; top: 16px; width: 82%; }
-  .mobile-card { left: 42%; top: 56px; width: 30%; z-index: 2; }
-  .mobile-loyalty { right: -3%; top: 48px; width: 31%; z-index: 3; }
+  .digital-hero-carousel-mobile {
+    position: relative;
+    left: auto;
+    bottom: auto;
+    width: min(520px, 92%);
+    height: 405px;
+    margin: 18px auto 0;
+    transform: none;
+    touch-action: pan-y;
+  }
+  .digital-hero-carousel-mobile .digital-hero-slide {
+    grid-template-rows: 42px minmax(0, 1fr);
+  }
+  .digital-hero-carousel-mobile .digital-hero-slide img { max-width: 90%; max-height: 94%; }
+  .digital-hero-carousel-mobile .digital-hero-slide:nth-child(2) img { max-height: 90%; }
+  .digital-hero-carousel-mobile .digital-hero-slide:nth-child(3) img { max-height: 84%; }
+  .digital-hero-carousel-mobile .digital-hero-prev { left: -22px; }
+  .digital-hero-carousel-mobile .digital-hero-next { right: -22px; }
 }
 
 
