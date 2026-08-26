@@ -185,7 +185,7 @@
   inset: 0;
   margin: 0;
   display: grid;
-  grid-template-rows: minmax(0, 1fr) 58px;
+  grid-template-rows: 48px minmax(0, 1fr);
   justify-items: center;
   align-items: center;
   opacity: 0;
@@ -201,33 +201,41 @@
 }
 
 .three-d-hero-slide img {
-  width: auto;
-  max-width: 86%;
-  height: auto;
-  max-height: 100%;
+  grid-row: 2;
+  width: 90%;
+  max-width: none;
+  height: 100%;
+  max-height: none;
   display: block;
   object-fit: contain;
+  object-position: center top;
   filter: drop-shadow(0 20px 24px rgba(0, 0, 0, .24));
 }
 
-.three-d-hero-slide:nth-child(2) img,
-.three-d-hero-slide:nth-child(3) img { max-width: 84%; }
 .three-d-hero-slide .three-d-knob {
-  max-width: 78%;
   filter:
     drop-shadow(0 0 10px rgba(244, 237, 230, .34))
     drop-shadow(0 18px 24px rgba(0, 0, 0, .28));
 }
-.three-d-hero-slide .three-d-robot { max-width: 58%; }
 
 .three-d-hero-slide figcaption {
+  grid-row: 1;
   max-width: 520px;
-  align-self: center;
+  align-self: start;
   margin: 0;
   color: #f4ede6;
   font: 400 clamp(.78rem, 1vw, .98rem)/1.35 "DM Sans", sans-serif;
   letter-spacing: .035em;
   text-align: center;
+}
+
+.three-d-hero-slide figcaption::after {
+  content: "";
+  width: 1px;
+  height: 17px;
+  display: block;
+  margin: 7px auto 0;
+  background: rgba(244, 237, 230, .5);
 }
 
 .three-d-hero-arrow {
@@ -442,7 +450,7 @@
   inset: 0;
   margin: 0;
   display: grid;
-  grid-template-rows: 38px minmax(0, 1fr);
+  grid-template-rows: 48px minmax(0, 1fr);
   justify-items: center;
   align-items: center;
   opacity: 0;
@@ -479,30 +487,32 @@
 }
 
 .digital-hero-slide img {
-  width: auto;
-  max-width: 88%;
-  height: auto;
-  max-height: 100%;
+  grid-row: 2;
+  width: 92%;
+  max-width: none;
+  height: 100%;
+  max-height: none;
   display: block;
   object-fit: contain;
+  object-position: center top;
   filter: drop-shadow(0 14px 16px rgba(24, 22, 20, .16));
 }
 
-.digital-hero-slide:nth-child(2) img { max-height: 94%; }
-.digital-hero-slide:nth-child(3) img { max-height: 88%; }
-.digital-hero-slide:nth-child(5) img { max-width: 92%; border-radius: 8px; }
+.digital-hero-slide:nth-child(5) img { border-radius: 8px; }
 
 /* Las dos imágenes llegaron con cuadrícula de previsualización incorporada;
    el recorte conserva únicamente la silueta de cada dispositivo. */
 .carousel-laptop {
   width: 100% !important;
-  max-width: 100% !important;
+  max-width: none !important;
+  height: 100%;
   clip-path: polygon(22% 12%, 78% 12%, 78% 75%, 84% 86%, 84% 91%, 16% 91%, 16% 86%, 22% 75%);
 }
 
 .carousel-phone {
-  width: auto !important;
-  max-width: 88% !important;
+  width: 92% !important;
+  max-width: none !important;
+  height: 100%;
   clip-path: none;
   transform: none;
 }
@@ -626,13 +636,9 @@
     transform: none;
   }
   .three-d-hero-carousel-mobile .three-d-hero-slide {
-    grid-template-rows: minmax(0, 1fr) 62px;
+    grid-template-rows: 48px minmax(0, 1fr);
   }
-  .three-d-hero-carousel-mobile .three-d-hero-slide img { max-width: 88%; }
-  .three-d-hero-carousel-mobile .three-d-hero-slide:nth-child(2) img,
-  .three-d-hero-carousel-mobile .three-d-hero-slide:nth-child(3) img { max-width: 88%; }
-  .three-d-hero-carousel-mobile .three-d-hero-slide .three-d-knob { max-width: 76%; }
-  .three-d-hero-carousel-mobile .three-d-hero-slide .three-d-robot { max-width: 54%; }
+  .three-d-hero-carousel-mobile .three-d-hero-slide img { width: 90%; max-width: none; height: 100%; }
   .three-d-hero-carousel-mobile .three-d-hero-prev { left: -22px; }
   .three-d-hero-carousel-mobile .three-d-hero-next { right: -22px; }
 
@@ -650,11 +656,9 @@
     touch-action: pan-y;
   }
   .digital-hero-carousel-mobile .digital-hero-slide {
-    grid-template-rows: 42px minmax(0, 1fr);
+    grid-template-rows: 48px minmax(0, 1fr);
   }
-  .digital-hero-carousel-mobile .digital-hero-slide img { max-width: 90%; max-height: 94%; }
-  .digital-hero-carousel-mobile .digital-hero-slide:nth-child(2) img { max-height: 90%; }
-  .digital-hero-carousel-mobile .digital-hero-slide:nth-child(3) img { max-height: 84%; }
+  .digital-hero-carousel-mobile .digital-hero-slide img { width: 92%; max-width: none; height: 100%; max-height: none; }
   .digital-hero-carousel-mobile .digital-hero-prev { left: -22px; }
   .digital-hero-carousel-mobile .digital-hero-next { right: -22px; }
 }

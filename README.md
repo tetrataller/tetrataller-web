@@ -1,5 +1,11 @@
 # Tetra Taller
 
+## Versión 57
+
+- Los textos de los carruseles 3D y Digital se alinearon en la misma franja superior.
+- Las imágenes comparten una zona visual fija y comienzan a la misma altura.
+- Se equilibró la escala entre piezas sin deformar sus proporciones.
+
 ## Versión 56
 
 - Sistema completo de iconos para pestañas, Android, iPhone y accesos directos.
