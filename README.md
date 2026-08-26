@@ -1,5 +1,9 @@
 # Tetra Taller
 
+## Versión 55
+
+- Favicon con fondo gris grafito del logotipo e isotipo terracota de mayor grosor.
+
 ## Versión 54
 
 - Favicon optimizado para pestañas: isotipo terracota de mayor grosor sobre fondo hueso.
