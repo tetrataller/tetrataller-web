@@ -1,5 +1,9 @@
 # Tetra Taller
 
+## Versión 53
+
+- El isotipo oficial de Tetra Taller se muestra como favicon en todas las pestañas del sitio.
+
 ## Versión 52
 
 - El carrusel Digital funciona ahora también en celular con los cinco servicios.
