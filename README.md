@@ -1,5 +1,9 @@
 # Tetra Taller
 
+## Versión 54
+
+- Favicon optimizado para pestañas: isotipo terracota de mayor grosor sobre fondo hueso.
+
 ## Versión 53
 
 - El isotipo oficial de Tetra Taller se muestra como favicon en todas las pestañas del sitio.
