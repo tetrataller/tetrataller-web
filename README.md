@@ -1,5 +1,11 @@
 # Tetra Taller
 
+## Versión 56
+
+- Sistema completo de iconos para pestañas, Android, iPhone y accesos directos.
+- Se añadieron tamaños 16, 32, 64, 180, 192 y 512 px, además de una versión maskable.
+- Se incorporó el manifiesto web con fondo gris grafito e isotipo terracota optimizado.
+
 ## Versión 55
 
 - Favicon con fondo gris grafito del logotipo e isotipo terracota de mayor grosor.
