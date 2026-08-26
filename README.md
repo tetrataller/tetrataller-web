@@ -1,5 +1,11 @@
 # Tetra Taller
 
+## Versión 58
+
+- Se reservó un margen fijo entre las imágenes y los controles de ambos carruseles.
+- Los identificadores Digital y los textos 3D comparten tamaño y peso ligeramente reforzados.
+- La computadora se amplió y su recorte se ajustó para eliminar la franja cuadriculada inferior.
+
 ## Versión 57
 
 - Los textos de los carruseles 3D y Digital se alinearon en la misma franja superior.
