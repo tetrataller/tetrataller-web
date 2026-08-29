@@ -1,5 +1,14 @@
 # Tetra Taller
 
+## Estado operativo
+
+- Repositorio oficial: `tetrataller/tetrataller-web`.
+- Rama oficial: `main`.
+- Sitio público: https://tetrataller.com
+- Publicación: GitHub Pages.
+- El código y los recursos viven en GitHub; la documentación administrativa vive en Google Drive.
+- Los cambios se realizan directamente en el repositorio, sin paquetes ZIP, y se verifican después de la publicación.
+
 ## Versión 59
 
 - Imágenes de ambos carruseles convertidas a WebP optimizado: de aproximadamente 11 MB a menos de 600 KB.
@@ -90,7 +99,7 @@ Sitio web oficial de Tetra Taller.
 
 ## Publicación
 
-Proyecto estático preparado para GitHub y Cloudflare Pages.
+Proyecto estático publicado desde la rama `main` mediante GitHub Pages.
 
 - Comando de compilación: ninguno
 - Directorio de salida: `/`

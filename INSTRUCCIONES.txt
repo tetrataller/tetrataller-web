@@ -1,16 +1,28 @@
-ACTUALIZACION DE CARRUSELES — TETRA TALLER v59
+FLUJO OFICIAL DE ACTUALIZACIÓN — TETRA WEB
 
-1. En GitHub, abre la carpeta assets.
-2. Sube los ocho archivos .webp incluidos en la carpeta assets de este paquete.
-3. Regresa a la carpeta principal del repositorio.
-4. Sustituye index.html y styles.css por los archivos de este paquete.
-5. README.md y VERSION.txt son recomendables para registrar la versión, pero no afectan la página.
-6. Confirma el cambio con el mensaje: Optimizar carruseles y corregir recorte - v59
-7. Espera a que Deployments > github-pages muestre la marca verde.
-8. Abre tetrataller.com en una pestaña de incógnito o recarga con Ctrl + Shift + R.
+FUENTES OFICIALES
 
-RESULTADO
+- Código y recursos: https://github.com/tetrataller/tetrataller-web
+- Rama: main
+- Sitio publicado: https://tetrataller.com
+- Publicación: GitHub Pages
 
-- Imágenes de carrusel reducidas de aproximadamente 11 MB a menos de 600 KB.
-- Computadora con transparencia real, sin triángulos ni cuadrícula.
-- Precarga de las primeras imágenes y decodificación asíncrona de las demás.
+PROCESO
+
+1. Revisar el repositorio y confirmar el estado actual.
+2. Definir exactamente qué archivo o contenido debe cambiar.
+3. Modificar sólo lo solicitado; evitar cambios visuales colaterales.
+4. Validar HTML, CSS, JavaScript y referencias de archivos cuando corresponda.
+5. Confirmar el cambio en la rama main con un mensaje claro.
+6. Esperar que la publicación de GitHub Pages termine correctamente.
+7. Revisar tetrataller.com, preferentemente en una pestaña privada o con recarga completa.
+8. Registrar las decisiones importantes en el Control maestro de Drive.
+
+REGLAS
+
+- No usar archivos ZIP como flujo normal.
+- Conservar CNAME con el valor exacto tetrataller.com.
+- No cambiar dominio, publicación, imágenes, carruseles, proporciones ni apariencia sin autorización expresa.
+- Si una validación falla, corregirla antes de declarar el cambio terminado.
+
+Este archivo describe el flujo permanente. El historial de versiones permanece en README.md y VERSION.txt.

@@ -1,12 +1,24 @@
-TETRA TALLER — VERSIÓN 52
+TETRA TALLER — PROYECTO WEB OFICIAL
 
-Para verlo correctamente en Windows:
-1. Haz clic derecho sobre TetraTaller-v52-Windows.zip.
-2. Selecciona “Extraer todo...”.
-3. Abre la carpeta Tetra-Taller-v52.
-4. Abre index.html.
+Repositorio: tetrataller/tetrataller-web
+Rama oficial: main
+Sitio público: https://tetrataller.com
+Publicación: GitHub Pages
+Versión visual actual: v59
 
-No abras index.html directamente desde dentro del ZIP.
+FORMA DE TRABAJO
 
-Versión: v.52
-Fecha: 26 de agosto de 2026
+1. Solicitar el cambio en ChatGPT Work.
+2. Revisar el estado actual del repositorio antes de modificarlo.
+3. Hacer únicamente el cambio solicitado.
+4. Confirmar el cambio directamente en GitHub; no usar paquetes ZIP.
+5. Verificar que GitHub Pages termine correctamente.
+6. Revisar tetrataller.com después de la publicación.
+
+IMPORTANTE
+
+- No modificar CNAME: debe conservar tetrataller.com.
+- No cambiar imágenes, proporciones, carruseles ni apariencia sin autorización expresa.
+- El código vive en GitHub; los controles y decisiones administrativas viven en Google Drive.
+
+Flujo actualizado: 29 de agosto de 2026
