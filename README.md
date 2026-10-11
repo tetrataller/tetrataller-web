@@ -9,6 +9,14 @@
 - El código y los recursos viven en GitHub; la documentación administrativa vive en Google Drive.
 - Los cambios se realizan directamente en el repositorio, sin paquetes ZIP, y se verifican después de la publicación.
 
+## Versión 63
+
+- Nueva página `paginas-web.html`, enlazada desde la tarjeta 01 de la portada.
+- Proyecto realizado: Tacos al Vapor Memo's (tacosalvapormemos.com) con captura optimizada.
+- Cuatro conceptos por giro hechos en HTML/CSS con las marcas ficticias de Fidelización (Forno 33, Pliegue Dulce, Nube Blanca, Renova Kicks), marcados como conceptos.
+- Planes: Presentación $4,900, Página de negocio $8,900 y Catálogo con pedidos desde $14,900; renovación anual $1,500 desde el segundo año.
+- Estilos propios en `web-v63.css`; reutiliza la estructura de `tarjeta-v39.css`.
+
 ## Versión 62
 
 - Tarjeta Digital muestra precios en sus tres planes: Esencial $399 (incluye el primer año), Digital + NFC $749 (soporte NFC incluido) y Paquete empresarial desde $349 por persona solo digital o $649 con NFC (mínimo 5).
