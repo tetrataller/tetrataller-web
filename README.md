@@ -9,6 +9,10 @@
 - El código y los recursos viven en GitHub; la documentación administrativa vive en Google Drive.
 - Los cambios se realizan directamente en el repositorio, sin paquetes ZIP, y se verifican después de la publicación.
 
+## Catálogo de WhatsApp
+
+- `assets/catalogo/`: imágenes cuadradas (1080×1080, JPG) de los seis productos de la Tienda para el catálogo de WhatsApp Business / Administrador de ventas de Meta. No se usan en las páginas del sitio.
+
 ## Versión 67
 
 - Fidelización más compacta (de unos 4,270 a 3,430 px de alto en escritorio): pasos en tarjetas bajas, beneficios en dos columnas junto al título, Cliente y Negocio lado a lado, precios y contacto con menos relleno.
