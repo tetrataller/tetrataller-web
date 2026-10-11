@@ -188,3 +188,44 @@
   .digital-card-page .digital-card-contact .button { width: 100%; text-align: center; }
 }
 
+
+/* Tarjeta Digital v62: precios de los planes. */
+.digital-card-page .digital-plans-grid .plan-price {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 4px 6px;
+  margin-top: 18px;
+  color: #28231f;
+}
+
+.digital-card-page .digital-plans-grid .plan-price strong {
+  font-size: clamp(1.9rem, 2.6vw, 2.3rem);
+  font-weight: 700;
+  line-height: 1;
+}
+
+.digital-card-page .digital-plans-grid .plan-price span {
+  color: #5e5851;
+  font-size: .82rem;
+  font-weight: 600;
+}
+
+.digital-card-page .digital-plans-grid .plan-price small {
+  flex-basis: 100%;
+  color: #5e5851;
+  font-size: .8rem;
+  line-height: 1.4;
+}
+
+.digital-card-page .digital-plans-grid .featured .plan-price,
+.digital-card-page .digital-plans-grid .featured .plan-price strong { color: #fff; }
+
+.digital-card-page .digital-plans-grid .featured .plan-price span,
+.digital-card-page .digital-plans-grid .featured .plan-price small { color: #d2cdc5; }
+
+.digital-card-page .plans-note {
+  margin: 18px 0 0;
+  color: #c9c5bd;
+  font-size: .9rem;
+}

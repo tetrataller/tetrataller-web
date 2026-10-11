@@ -9,6 +9,11 @@
 - El código y los recursos viven en GitHub; la documentación administrativa vive en Google Drive.
 - Los cambios se realizan directamente en el repositorio, sin paquetes ZIP, y se verifican después de la publicación.
 
+## Versión 62
+
+- Tarjeta Digital muestra precios en sus tres planes: Esencial $399 (incluye el primer año), Digital + NFC $749 (soporte NFC incluido) y Paquete empresarial desde $349 por persona solo digital o $649 con NFC (mínimo 5).
+- Nota bajo los planes: renovación anual de $199 por perfil desde el segundo año; los soportes NFC se pagan una sola vez.
+
 ## Versión 61
 
 - La Tienda muestra el precio por pieza en cada producto («Desde $… MXN»): menú QR de mostrador $450, caballete $120, sticker $60; reseñas de mostrador $550, caballete $250, sticker $180.
