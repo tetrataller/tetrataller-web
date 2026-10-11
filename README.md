@@ -13,7 +13,7 @@
 
 - Vista previa al compartir: etiquetas Open Graph, canonical e imagen 1200×630 en todas las páginas; datos de negocio (LocalBusiness) en la portada.
 - Botones de WhatsApp y correo dentro de las secciones de contacto de Inicio, Sistemas, Complementos y Tienda.
-- El ícono de correo del pie abre la aplicación de correo (`mailto:`) en lugar de Gmail web.
+- Los enlaces de correo de las secciones de contacto abren Gmail para redactar, igual que el ícono del pie.
 - Botón flotante de WhatsApp en todas las páginas, con mensaje según la página; se oculta junto al contacto y el pie.
 - El contacto de la Tienda recupera su fondo grafito para que el texto sea legible.
 
