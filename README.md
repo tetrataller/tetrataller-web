@@ -9,6 +9,12 @@
 - El código y los recursos viven en GitHub; la documentación administrativa vive en Google Drive.
 - Los cambios se realizan directamente en el repositorio, sin paquetes ZIP, y se verifican después de la publicación.
 
+## Versión 63
+
+- Precios con IVA incluido (16%), redondeados a la decena (menores de $1,000) o a la centena.
+- Tienda: menú QR acrílico $520, caballete $140, sticker $70; reseñas acrílico $640, caballete $290, sticker $210. Nota «IVA incluido».
+- Tarjeta Digital: Esencial $460, Digital + NFC $870, empresarial desde $400 por persona ($750 con NFC), renovación $230 al año.
+
 ## Versión 62
 
 - Tarjeta Digital muestra precios en sus tres planes: Esencial $399 (incluye el primer año), Digital + NFC $749 (soporte NFC incluido) y Paquete empresarial desde $349 por persona solo digital o $649 con NFC (mínimo 5).
