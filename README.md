@@ -9,6 +9,10 @@
 - El código y los recursos viven en GitHub; la documentación administrativa vive en Google Drive.
 - Los cambios se realizan directamente en el repositorio, sin paquetes ZIP, y se verifican después de la publicación.
 
+## Versión 67
+
+- Fidelización más compacta (de unos 4,270 a 3,430 px de alto en escritorio): pasos en tarjetas bajas, beneficios en dos columnas junto al título, Cliente y Negocio lado a lado, precios y contacto con menos relleno.
+
 ## Versión 66
 
 - Fidelización: títulos de «Del primer escaneo», «Diseñado alrededor de tu forma de vender», «El cliente ve su avance» y Precios reducidos y unificados en Newsreader; menos espacio vertical.
