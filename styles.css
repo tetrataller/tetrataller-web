@@ -4011,3 +4011,8 @@ main.shop-page {
 @media print {
   .whatsapp-float { display: none; }
 }
+
+/* Tienda v60: el contacto conserva su fondo grafito sobre la página clara para que el texto sea legible. */
+main.shop-page .contact {
+  background: var(--graphite);
+}
