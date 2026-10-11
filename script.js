@@ -73,35 +73,6 @@ document.querySelectorAll("footer").forEach((footer) => {
   footer.appendChild(creditBlock);
 });
 
-// Correo v60: además de abrir la app de correo, copia la dirección y avisa.
-// Respaldo para quien no tiene una app de correo configurada (por ejemplo, Gmail web en computadora).
-document.addEventListener("click", (event) => {
-  const link = event.target.closest('a[href^="mailto:"]');
-  if (!link) return;
-  const email = link.getAttribute("href").replace(/^mailto:/, "").split("?")[0];
-  const showToast = (text) => {
-    let toast = document.querySelector(".copy-toast");
-    if (!toast) {
-      toast = document.createElement("div");
-      toast.className = "copy-toast";
-      toast.setAttribute("role", "status");
-      toast.setAttribute("aria-live", "polite");
-      document.body.appendChild(toast);
-    }
-    toast.textContent = text;
-    toast.classList.add("is-visible");
-    clearTimeout(showToast.timer);
-    showToast.timer = setTimeout(() => toast.classList.remove("is-visible"), 3200);
-  };
-  if (navigator.clipboard && navigator.clipboard.writeText) {
-    navigator.clipboard.writeText(email)
-      .then(() => showToast(`Correo copiado: ${email}`))
-      .catch(() => showToast(`Escríbenos a ${email}`));
-  } else {
-    showToast(`Escríbenos a ${email}`);
-  }
-});
-
 // Botón flotante de WhatsApp v60: siempre a mano, se oculta junto al contacto y el pie.
 (() => {
   if (document.querySelector(".whatsapp-float")) return;
