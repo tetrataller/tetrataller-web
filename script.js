@@ -48,7 +48,7 @@ document.querySelectorAll("footer").forEach((footer) => {
     contact.className = "footer-contact contact-options";
     contact.setAttribute("aria-label", "Contacto con Tetra Taller");
     contact.innerHTML = `
-      <a class="contact-icon contact-icon-email" href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=tetrataller%40gmail.com" target="_blank" rel="noopener" aria-label="Enviar correo a Tetra Taller" title="Correo">
+      <a class="contact-icon contact-icon-email" href="mailto:tetrataller@gmail.com" aria-label="Enviar correo a Tetra Taller" title="tetrataller@gmail.com">
         <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M3 6.5h18v11H3z"/><path d="m4 7.5 8 6 8-6"/></svg>
       </a>
       <a class="contact-icon contact-icon-whatsapp" href="https://wa.me/523345175877" target="_blank" rel="noopener" aria-label="Escribir a Tetra Taller por WhatsApp" title="WhatsApp">
@@ -72,6 +72,44 @@ document.querySelectorAll("footer").forEach((footer) => {
   creditBlock.append(credit, contact);
   footer.appendChild(creditBlock);
 });
+
+// Botón flotante de WhatsApp v60: siempre a mano, se oculta junto al contacto y el pie.
+(() => {
+  if (document.querySelector(".whatsapp-float")) return;
+  const pageMessages = {
+    "tienda.html": "Hola Tetra Taller, quiero información sobre un producto de la tienda.",
+    "complementos.html": "Hola Tetra Taller, quiero información sobre un complemento para mi negocio.",
+    "fidelidad.html": "Hola Tetra Taller, quiero información sobre un programa digital de fidelidad.",
+    "tarjeta-digital.html": "Hola Tetra Taller, quiero información sobre la Tarjeta Digital Tetra.",
+  };
+  const page = location.pathname.split("/").pop() || "index.html";
+  const message = pageMessages[page] ||
+    (page === "sistemas.html" || page.startsWith("tetra-")
+      ? "Hola Tetra Taller, quiero información sobre los sistemas modulares."
+      : "Hola Tetra Taller, quiero información.");
+
+  const button = document.createElement("a");
+  button.className = "whatsapp-float";
+  button.href = `https://wa.me/523345175877?text=${encodeURIComponent(message)}`;
+  button.target = "_blank";
+  button.rel = "noopener";
+  button.setAttribute("aria-label", "Escribir a Tetra Taller por WhatsApp");
+  button.title = "Escríbenos por WhatsApp";
+  button.innerHTML = '<svg aria-hidden="true" viewBox="0 0 24 24"><path d="M20 11.6a8 8 0 0 1-11.8 7L4 20l1.4-4A8 8 0 1 1 20 11.6Z"/><path d="M8.3 7.8c.3-.5.6-.5.9-.5h.4c.2 0 .4.1.5.4l.8 1.8c.1.3 0 .5-.2.7l-.6.7c-.2.2-.1.4 0 .6.8 1.4 2 2.5 3.5 3.2.3.1.5.1.7-.1l.8-1c.2-.2.4-.3.7-.2l1.8.9c.3.1.4.3.4.6 0 .6-.3 1.4-.8 1.8-.5.5-1.3.8-2.1.7-1.3-.2-3.2-.8-5.1-2.5-1.5-1.4-2.7-3.2-3.1-4.6-.4-1.2-.1-2 .4-2.5Z"/></svg>';
+  document.body.appendChild(button);
+
+  const targets = document.querySelectorAll("#contacto, .contact, footer");
+  if (!targets.length || !("IntersectionObserver" in window)) return;
+  const visible = new Set();
+  const watcher = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) visible.add(entry.target);
+      else visible.delete(entry.target);
+    });
+    button.classList.toggle("is-hidden", visible.size > 0);
+  });
+  targets.forEach((target) => watcher.observe(target));
+})();
 
 document.querySelectorAll("[data-carousel]").forEach((carousel) => {
   const track = carousel.querySelector(".carousel-track");
