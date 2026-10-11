@@ -4180,3 +4180,56 @@ main.shop-page .contact {
 @media (max-width: 580px) {
   .loyalty-plans { width: calc(100% - 36px); }
 }
+
+/* Fidelización v66: títulos y secciones en proporción, contraste corregido. */
+.loyalty-page #como-funciona h2,
+.loyalty-page .loyalty-benefits h2,
+.loyalty-page .loyalty-control h2,
+.loyalty-page .loyalty-plans-heading h2 {
+  max-width: 720px;
+  font-family: "Newsreader", serif;
+  font-size: clamp(2rem, 3.2vw, 3.1rem);
+  font-weight: 500;
+  line-height: 1.04;
+  letter-spacing: -0.01em;
+}
+
+.loyalty-page #como-funciona {
+  padding: clamp(36px, 4.5vw, 60px) clamp(24px, 4vw, 56px);
+}
+
+.loyalty-page #como-funciona .loyalty-heading {
+  margin-bottom: clamp(24px, 3vw, 36px);
+}
+
+.loyalty-page .loyalty-benefits,
+.loyalty-page .loyalty-control,
+.loyalty-page .loyalty-plans {
+  padding-top: clamp(56px, 6vw, 84px);
+  padding-bottom: clamp(56px, 6vw, 84px);
+}
+
+.loyalty-page .loyalty-benefits-intro,
+.loyalty-page .loyalty-control-copy > p:last-child {
+  max-width: 560px;
+  color: #c9c5bd;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.loyalty-page .loyalty-benefits li span {
+  color: #b9b3aa;
+}
+
+.loyalty-page .loyalty-control-panels article {
+  padding: clamp(22px, 2.4vw, 30px);
+}
+
+.loyalty-page .loyalty-control-panels h3 {
+  margin-top: 16px;
+  font-size: clamp(1.4rem, 1.9vw, 1.7rem);
+}
+
+.loyalty-page .loyalty-control-panels article:first-child h3 {
+  color: var(--graphite);
+}
