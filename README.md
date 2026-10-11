@@ -9,6 +9,11 @@
 - El código y los recursos viven en GitHub; la documentación administrativa vive en Google Drive.
 - Los cambios se realizan directamente en el repositorio, sin paquetes ZIP, y se verifican después de la publicación.
 
+## Versión 66
+
+- Fidelización: títulos de «Del primer escaneo», «Diseñado alrededor de tu forma de vender», «El cliente ve su avance» y Precios reducidos y unificados en Newsreader; menos espacio vertical.
+- Contraste corregido en textos descriptivos y en el título «Todo a la vista», que era blanco sobre blanco.
+
 ## Versión 65
 
 - Fidelización digital muestra precios (IVA incluido): plan mensual $299, plan anual $2,990 con configuración incluida (sin Apple/Google Wallet por ahora), configuración y diseño $990 pago único, sucursal adicional $150 al mes.
