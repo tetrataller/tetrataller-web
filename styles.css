@@ -4044,3 +4044,12 @@ main.shop-page .contact {
   color: #625d56;
   font-size: 0.92rem;
 }
+
+/* v64: enlace legal en el pie */
+.footer-legal {
+  color: inherit;
+  font-size: 0.82rem;
+  text-decoration: underline;
+  text-decoration-color: rgba(231, 149, 119, 0.6);
+  text-underline-offset: 3px;
+}
