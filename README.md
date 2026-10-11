@@ -11,7 +11,7 @@
 
 ## Versión 65
 
-- Fidelización digital muestra precios (IVA incluido): plan mensual $349, plan anual $3,490 con configuración incluida, configuración y diseño $990 pago único, sucursal adicional $150 al mes.
+- Fidelización digital muestra precios (IVA incluido): plan mensual $299, plan anual $2,990 con configuración incluida (sin Apple/Google Wallet por ahora), configuración y diseño $990 pago único, sucursal adicional $150 al mes.
 
 ## Versión 64
 
