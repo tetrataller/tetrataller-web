@@ -9,6 +9,10 @@
 - El código y los recursos viven en GitHub; la documentación administrativa vive en Google Drive.
 - Los cambios se realizan directamente en el repositorio, sin paquetes ZIP, y se verifican después de la publicación.
 
+## Versión 65
+
+- Fidelización digital muestra precios (IVA incluido): plan mensual $349, plan anual $3,490 con configuración incluida, configuración y diseño $990 pago único, sucursal adicional $150 al mes.
+
 ## Versión 64
 
 - Nueva página `paginas-web.html`, enlazada desde la tarjeta 01 de la portada: proyecto realizado de Tacos al Vapor Memo's y cuatro conceptos por giro con marcas ficticias (Forno 33, Pliegue Dulce, Nube Blanca, Renova Kicks).
