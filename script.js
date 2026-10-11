@@ -71,6 +71,16 @@ document.querySelectorAll("footer").forEach((footer) => {
   creditBlock.className = "footer-credit-block";
   creditBlock.append(credit, contact);
   footer.appendChild(creditBlock);
+
+  // Enlace a términos, devoluciones y aviso de privacidad (v64).
+  const copyright = footer.querySelector("#year")?.closest("p");
+  if (copyright && !footer.querySelector(".footer-legal")) {
+    const legal = document.createElement("a");
+    legal.className = "footer-legal";
+    legal.href = "legal.html";
+    legal.textContent = "Términos y privacidad";
+    copyright.append(document.createElement("br"), legal);
+  }
 });
 
 // Botón flotante de WhatsApp v60: siempre a mano, se oculta junto al contacto y el pie.

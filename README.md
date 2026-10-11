@@ -9,6 +9,13 @@
 - El código y los recursos viven en GitHub; la documentación administrativa vive en Google Drive.
 - Los cambios se realizan directamente en el repositorio, sin paquetes ZIP, y se verifican después de la publicación.
 
+## Versión 64
+
+- Nueva página `paginas-web.html`, enlazada desde la tarjeta 01 de la portada: proyecto realizado de Tacos al Vapor Memo's y cuatro conceptos por giro con marcas ficticias (Forno 33, Pliegue Dulce, Nube Blanca, Renova Kicks).
+- Planes de páginas web con IVA incluido: Presentación $5,700, Página de negocio $10,300, Catálogo con pedidos desde $17,300; renovación $1,700 al año.
+- Nueva página `legal.html`: términos de venta, cambios, devoluciones y garantía de 90 días, y aviso de privacidad.
+- Enlace «Términos y privacidad» en el pie de todas las páginas y en la Tienda.
+
 ## Versión 63
 
 - Precios con IVA incluido (16%), redondeados a la decena (menores de $1,000) o a la centena.
