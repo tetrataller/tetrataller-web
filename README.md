@@ -13,7 +13,7 @@
 
 - Precios con IVA incluido (16%), redondeados a la decena (menores de $1,000) o a la centena.
 - Tienda: menú QR acrílico $520, caballete $140, sticker $70; reseñas acrílico $640, caballete $290, sticker $210. Nota «IVA incluido».
-- Tarjeta Digital: Esencial $460, Digital + NFC $870, empresarial desde $400 por persona ($750 con NFC), renovación $230 al año.
+- Tarjeta Digital: Esencial $430, Digital + NFC $799 (ajustados para quedar al nivel de la competencia), empresarial desde $400 por persona ($750 con NFC), renovación $230 al año.
 
 ## Versión 62
 
