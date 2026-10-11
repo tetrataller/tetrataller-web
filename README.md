@@ -9,6 +9,14 @@
 - El código y los recursos viven en GitHub; la documentación administrativa vive en Google Drive.
 - Los cambios se realizan directamente en el repositorio, sin paquetes ZIP, y se verifican después de la publicación.
 
+## Versión 60
+
+- Vista previa al compartir: etiquetas Open Graph, canonical e imagen 1200×630 en todas las páginas; datos de negocio (LocalBusiness) en la portada.
+- Botones de WhatsApp y correo dentro de las secciones de contacto de Inicio, Sistemas, Complementos y Tienda.
+- El ícono de correo del pie abre la aplicación de correo (`mailto:`) en lugar de Gmail web.
+- Botón flotante de WhatsApp en todas las páginas, con mensaje según la página; se oculta junto al contacto y el pie.
+- El contacto de la Tienda recupera su fondo grafito para que el texto sea legible.
+
 ## Versión 59
 
 - Imágenes de ambos carruseles convertidas a WebP optimizado: de aproximadamente 11 MB a menos de 600 KB.

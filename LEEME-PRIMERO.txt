@@ -4,7 +4,7 @@ Repositorio: tetrataller/tetrataller-web
 Rama oficial: main
 Sitio público: https://tetrataller.com
 Publicación: GitHub Pages
-Versión visual actual: v59
+Versión visual actual: v60
 
 FORMA DE TRABAJO
 
