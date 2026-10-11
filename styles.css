@@ -4016,3 +4016,31 @@ main.shop-page {
 main.shop-page .contact {
   background: var(--graphite);
 }
+
+/* Correo v60: aviso al copiar la dirección. */
+.copy-toast {
+  position: fixed;
+  left: 50%;
+  bottom: max(24px, env(safe-area-inset-bottom));
+  z-index: 1100;
+  max-width: calc(100% - 32px);
+  padding: 12px 20px;
+  border-radius: 999px;
+  background: var(--bone);
+  color: var(--graphite);
+  font-weight: 600;
+  box-shadow: 0 10px 26px rgba(17, 16, 15, 0.32);
+  opacity: 0;
+  pointer-events: none;
+  transform: translate(-50%, 12px);
+  transition: opacity 180ms ease, transform 180ms ease;
+}
+
+.copy-toast.is-visible {
+  opacity: 1;
+  transform: translate(-50%, 0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .copy-toast { transition: none; }
+}
