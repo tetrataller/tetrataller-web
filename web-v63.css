@@ -302,12 +302,32 @@
 .web-page .theme-renova .mock-nav em { color: #08110f; }
 .web-page .theme-renova .mock-hero em { color: #08110f; }
 .web-page .theme-renova .mock-kicks {
+  position: relative;
   border-radius: 22%;
   background:
-    linear-gradient(#eef4f2, #eef4f2) 18% 70% / 64% 10% no-repeat,
-    radial-gradient(ellipse at 58% 52%, #eef4f2 0 30%, transparent 31%),
-    radial-gradient(ellipse at 34% 58%, #eef4f2 0 22%, transparent 23%),
-    linear-gradient(160deg, #1f6f60, #0c2a25);
+    radial-gradient(circle at 76% 24%, #19b394 0 9%, transparent 9.5%),
+    linear-gradient(90deg, #5c4f43 0 50%, #eef4f2 50% 100%);
+}
+
+.web-page .theme-renova .mock-kicks::before,
+.web-page .theme-renova .mock-kicks::after {
+  position: absolute;
+  bottom: 12%;
+  font-size: 2cqw;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+}
+
+.web-page .theme-renova .mock-kicks::before {
+  left: 9%;
+  color: #e9e1d6;
+  content: "ANTES";
+}
+
+.web-page .theme-renova .mock-kicks::after {
+  right: 6%;
+  color: #0c2a25;
+  content: "DESPUÉS";
 }
 
 @media (max-width: 950px) {
