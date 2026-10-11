@@ -4016,3 +4016,31 @@ main.shop-page {
 main.shop-page .contact {
   background: var(--graphite);
 }
+
+/* Tienda v61: precio visible en cada producto. */
+.shop-card-copy h3 {
+  min-height: 0;
+  margin-bottom: 8px;
+}
+
+.shop-price {
+  margin: 0 0 16px;
+  color: var(--graphite);
+  font-size: 1.3rem;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.shop-price span,
+.shop-price small {
+  color: #625d56;
+  font-size: 0.78rem;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
+.shop-price-note {
+  margin-top: 10px;
+  color: #625d56;
+  font-size: 0.92rem;
+}

@@ -9,6 +9,11 @@
 - El código y los recursos viven en GitHub; la documentación administrativa vive en Google Drive.
 - Los cambios se realizan directamente en el repositorio, sin paquetes ZIP, y se verifican después de la publicación.
 
+## Versión 61
+
+- La Tienda muestra el precio por pieza en cada producto («Desde $… MXN»): menú QR de mostrador $450, caballete $120, sticker $60; reseñas de mostrador $550, caballete $250, sticker $180.
+- Nota bajo la introducción de la Tienda: precios por pieza y precios en paquete a consulta.
+
 ## Versión 60
 
 - Vista previa al compartir: etiquetas Open Graph, canonical e imagen 1200×630 en todas las páginas; datos de negocio (LocalBusiness) en la portada.
