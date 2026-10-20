@@ -48,7 +48,7 @@ document.querySelectorAll("footer").forEach((footer) => {
     contact.className = "footer-contact contact-options";
     contact.setAttribute("aria-label", "Contacto con Tetra Taller");
     contact.innerHTML = `
-      <a class="contact-icon contact-icon-email" href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=tetrataller%40gmail.com" target="_blank" rel="noopener" aria-label="Enviar correo a Tetra Taller" title="Correo">
+      <a class="contact-icon contact-icon-email" href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=info%40tetrataller.com" target="_blank" rel="noopener" aria-label="Enviar correo a Tetra Taller" title="Correo">
         <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M3 6.5h18v11H3z"/><path d="m4 7.5 8 6 8-6"/></svg>
       </a>
       <a class="contact-icon contact-icon-whatsapp" href="https://wa.me/523345175877" target="_blank" rel="noopener" aria-label="Escribir a Tetra Taller por WhatsApp" title="WhatsApp">

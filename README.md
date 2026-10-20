@@ -9,6 +9,10 @@
 - El código y los recursos viven en GitHub; la documentación administrativa vive en Google Drive.
 - Los cambios se realizan directamente en el repositorio, sin paquetes ZIP, y se verifican después de la publicación.
 
+## Versión 68
+
+- Correo de contacto cambiado a info@tetrataller.com en todo el sitio (secciones de contacto, pie y datos de negocio). Se recibe mediante Email Routing de Cloudflare y se reenvía a la cuenta de Gmail de Tetra Taller.
+
 ## Catálogo de WhatsApp
 
 - `assets/catalogo/`: imágenes cuadradas (1080×1080, JPG) de los seis productos de la Tienda para el catálogo de WhatsApp Business / Administrador de ventas de Meta. No se usan en las páginas del sitio.
@@ -298,5 +302,5 @@ La portada de Tacos Memo’s se muestra completa dentro de la laptop; laptop y c
 
 ## Contacto
 
-- Correo: tetrataller@gmail.com
+- Correo: info@tetrataller.com
 - WhatsApp: 33 4517 5877
